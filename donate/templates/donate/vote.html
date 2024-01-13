@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+{%  block content %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Support Charity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <link rel="stylesheet" href="{% static 'css/thanks.css' %}">
+	<link rel="stylesheet" href="{% static 'css/next/button.css' %}">
+  
+	<link rel="shortcut icon" href="{% static 'images/give.png' %}">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body>
+    
+  <div id="particles-js"></div> 
+
+<div class="thank-you-container">
+<div class="thank-you-box">
+  <h1>PLEASE WE NEED YOUR VOTE</h1>
+  <div class="img">
+  <img src="{% static 'images/votefor.png' %}" alt="">
+</div>
+  <p class="lead">Voting Contest</p>
+  <div class="wrapper">
+
+  <a href="{% url 'instagram' %}" class="icon instagram">
+    <div class="tooltip">Instagram</div>
+    <span>Vote With<i class="fab fa-instagram"></i></span>
+  </a>
+
+  <a href="{% url 'instagram' %}" class="icon instagram">
+    <div class="tooltip">Gmail</div>
+    <span>Vote With<i class="fa fa-envelope"></i></span>
+  </a>   
+
+</div> 
+<div class="wrapper1">
+  <p><b>Total Votes: 3878 out 4950</b></p>
+</div>
+<br>
+<div class="wrapper3">     
